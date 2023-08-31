@@ -106,5 +106,5 @@ em segundos, de uma experiência biológica. O programa deve informar o horário
 // let horario = readline.question("Digite o horário de início (HH:MM:SS):");
 // let duracao = readline.questionInt("Digite a duração da experiência em segundos: ");
 
-// let horarioArray = [horario.slice(':')];
+// let horarioArray = horario.split(':');
 // console.log(horarioArray);
